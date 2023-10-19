@@ -1,0 +1,2 @@
+- this project is to build AI model that takes a group of fingerprints and add the feature vector for every id to the system
+- as
