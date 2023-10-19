@@ -4,12 +4,12 @@
   2 ) find if a fingerprints exsist or not
 - the model is a CNN classifier and the feature vector is the output of the CNN-part (head of the network)
 - the comparison that leads to see if a fingerprints exsist or not is by taking the euclidean distance of the feature vector of the input image to the exsisting feature vectors to see if it belongs or not and the minimum distance that is less than a threshold is the match
-- every id has five potential fingerprints (regards left or right hand):
-  1 ) thumb finger
-  2 ) little finger
-  3 ) middle finger
-  4 ) index finger
-  5 ) ring finger
+- every id has five potential fingerprints (regards left or right hand):<br/>
+  1 ) thumb finger<br/>
+  2 ) little finger<br/>
+  3 ) middle finger<br/>
+  4 ) index finger<br/>
+  5 ) ring finger<br/>
 - if the classifier outputs a classification less than 0.7 then the image can't be classified
 - the data that been used is on kaggle : <https://www.kaggle.com/datasets/ruizgara/socofing>
 - the code that is on kaggle : <https://www.kaggle.com/code/kareemalmamlouk/fingerprint-detection>
