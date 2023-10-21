@@ -4,6 +4,7 @@
   2 ) find if a fingerprints exsist or not<br/>
 - the model is a CNN classifier and the feature vector is the output of the CNN-part (head of the network)
 - the comparison that leads to see if a fingerprints exsist or not is by taking the euclidean distance of the feature vector of the input image to the exsisting feature vectors to see if it belongs or not and the minimum distance that is less than a threshold is the match
+- the goal of the threshold is while comparison is that the model without that threshold will just give an output as it will pick the minimual distance always but that doesn't make any sense as if it is like saying that any fingerprint is always in the system so to solve that issue ,we will determine a threshold which the minimal distance has to be less than that threshold
 - every id has five potential fingerprints (regards left or right hand):<br/>
   1 ) thumb finger<br/>
   2 ) little finger<br/>
